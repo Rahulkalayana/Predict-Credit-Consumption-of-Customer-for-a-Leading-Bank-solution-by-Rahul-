@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="emi_active <= 7034.2\nsquared_error = 9105615711.6\nsamples = 7572\nvalue = 53099.4"] ;
+1 [label="region_code <= 684.5\nsquared_error = 8493709541.2\nsamples = 5084\nvalue = 50173.6"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="debit_amount_jun <= 9280.5\nsquared_error = 9391150741.9\nsamples = 3117\nvalue = 54132.2"] ;
+1 -> 2 ;
+3 [label="squared_error = 5297127437.9\nsamples = 220\nvalue = 36510.9"] ;
+2 -> 3 ;
+4 [label="squared_error = 9683237583.1\nsamples = 2897\nvalue = 55501.3"] ;
+2 -> 4 ;
+5 [label="dc_cons_jun <= 2075.5\nsquared_error = 7024268300.3\nsamples = 1967\nvalue = 43970.0"] ;
+1 -> 5 ;
+6 [label="squared_error = 4920165110.9\nsamples = 657\nvalue = 34610.9"] ;
+5 -> 6 ;
+7 [label="squared_error = 7986932599.8\nsamples = 1310\nvalue = 48534.7"] ;
+5 -> 7 ;
+8 [label="emi_active <= 7063.3\nsquared_error = 10316878300.8\nsamples = 2488\nvalue = 59150.8"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="cc_cons_may <= 2495.1\nsquared_error = 17733419924.8\nsamples = 13\nvalue = 157349.5"] ;
+8 -> 9 ;
+10 [label="squared_error = 95754942.8\nsamples = 3\nvalue = 298725.5"] ;
+9 -> 10 ;
+11 [label="squared_error = 9864431281.1\nsamples = 10\nvalue = 76563.3"] ;
+9 -> 11 ;
+12 [label="cc_cons_may <= 52253.7\nsquared_error = 10220064201.7\nsamples = 2475\nvalue = 58595.3"] ;
+8 -> 12 ;
+13 [label="squared_error = 9831279635.0\nsamples = 2335\nvalue = 56721.9"] ;
+12 -> 13 ;
+14 [label="squared_error = 15461071050.8\nsamples = 140\nvalue = 88398.2"] ;
+12 -> 14 ;
+}
